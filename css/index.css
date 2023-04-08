@@ -140,7 +140,7 @@ margin-left: 2%;
 }
 
 .item {
-    height: 150px;
+    height: 100%;
 }
 
 .title-carousel {
@@ -157,7 +157,7 @@ margin-left: 2%;
 }
 
 .owl-carousel .owl-item img {
-    object-position: top;
+    object-position: center;
     cursor: pointer;
     transition: .3s ease all;
 }
