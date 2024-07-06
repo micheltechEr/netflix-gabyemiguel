@@ -180,6 +180,11 @@ footer.footer_neteste .author_footer {
     color: #FFF;
 }
 
+header.flex.align-center.justify-between {
+    position: fixed;
+    z-index: 100;
+}
+
 @media (max-width: 770px)
 {
     .banner-home {
@@ -213,9 +218,15 @@ footer.footer_neteste .author_footer {
         color: #FFF;
     }
     .lista-menu{
-        background: #000;
-        opacity: .7;
+/*         background: #000;
+        opacity: .7; */
+        display: none;
     }
+}
+
+header.flex.align-center.justify-between {
+    position: fixed;
+    z-index: 100;
 }
 
 @media (max-width: 1360px)
